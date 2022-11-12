@@ -1,0 +1,22 @@
+sudo groupadd examgroup
+sudo groupadd strypes
+sudo useradd -g examgroup examuser
+cd ~
+cp /etc/passwd 
+cp /etc/passwd ~
+cd ~
+pwd
+ls -l
+sudo chown examuser passwd
+ls -l
+chgrp strypes passwd
+usermod -a -G strypes examuser 
+sudo useradd -g strypes examuser
+ls -l 
+sudo chown examuser passwd
+sudo chgrp strypes passwd
+ls -l passwd
+sudo chmod 752 passwd
+ls -l passwd
+sudo chmod ug+x passwd
+sudo chmod -o + w - r passwd

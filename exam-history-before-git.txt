@@ -1,0 +1,105 @@
+pwd
+mkkdiir "Linux Examm"
+mkdir "Linux Exaam"
+cd "Linux Exam"
+cd "Linux Exaam"
+mkdir Files Strypes
+cd Files 
+touch doc{1..5}.txt report{1..5}.doc results{1..5}.doc statistics{1,2}.xls
+ls 
+cd ~/"Linux Exaam"/Strypes
+mkdir Day{01,02}
+ls
+cd ~/"Linux Exaam"/Files
+cp *.txt  ~/"Linux Exaam"/Strypes/Day01
+mv *.doc  ~/"Linux Exaam"/Strypes/Day02
+ls
+cd ~/"Linux Exaam"/Files1
+mv statistics1.xls .statistics1.xls
+cd ~/"Linux Exaam"/Strypes/Day02
+rm -R 
+rm--help
+rmdir Day02
+cd .
+cd ..
+rmdir Day02
+rm -R Day02
+sudo groupadd examgroup strypes
+pass123
+users
+sudo useradd -g {examgroup strypes} examuser
+sudo useradd -g examgroup strypes examuser
+sudo groupadd examgroup
+sudo useradd -g examgroup examuser
+cd ~
+cp /etc/passwd 
+cp /etc/passwd ~
+pwd
+ls -l
+sudo chown examuser /etc/passwd
+ls -l
+ls -l /etc/passwd
+chgrp strypes /etc/passwd
+sudo groupadd strypes
+usermod -a -G strypes examuser 
+sudo usermod -a -G strypes examuser
+ls -l 
+sudo chown examuser /etc/passwd
+sudo chgrp strypes /etc/passwd
+ls -l etc/passwd 
+ls -l /etc/passwd
+sudo chmod 752 /etc/passwd
+sudo chown examuser passwd
+sudo chgrp strypes passwd
+sudo chmod 752 passwd
+ls -l passwd
+chmod ug+x passwd
+sudo chmod ug+x passwd
+sudo o+w-r 
+sudo o+w-r passwd
+sudo o + w - r 
+sudo o + w - r passwd
+sudo chmod  o + w - r passwd
+sudo chmod -o + w - r passwd
+watermelon#10#0.60
+cat > Fruits.info
+rm Fruits.imfo
+ls
+cat >Fruits.info
+cat >Fruits.info |sort 
+cat Fruits.info | sort 
+cat Fruits.info 
+ll
+cat >Fruits.info
+Watermelon#10#0.60
+Apple#29#2.40
+Kiwi#4#4.50
+Raspberry#123#10.20
+Blackberry#456#12.34
+
+cat > Fruits.info
+cat Fruits.info
+cat Fruits.info | sort
+cat Fruits.info | sort -n
+cat Fruits.info | sort -n -t '#' -k2
+cat Frruits.info |sort -k 3 -t "#' -r |cut -f 1 -d '#' |head -n1
+
+
+cat Fruits.info | sort -k 3 -t "#' -r | cut -f 1 -d '#' | head -n1
+
+
+
+ll
+cat Fruits.info | sort -k 3 -t "#' -r | cut -f 1 -d '#' | head -n1
+cat Fruits.info
+cat Fruits.info | sort -k 3 -t "#' -r
+cat Fruits.info | sort -k3 -t "#' -r
+cat Fruits.info | sort -k3 -t '#' -r
+cat Fruits.info | sort -k 3 -t '#' -r | cut -f 1 -d '#' | head -n1
+cat Fruits.info | sort -k 3 -t '#' -r | cut -f 1 -d '#' | head -n1 > fruit
+cat Fruits.info | sort -k 3 -t '#' -n | head -n3
+history
+history | cut -c 8-
+history | cut -c 8- | tail -108
+history | cut -c 8- | tail -106
+history | cut -c 8- | tail -106 > exam-history-before-git.txt

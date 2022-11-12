@@ -1,0 +1,14 @@
+cat > Fruits.info
+cat Fruits.info
+cat Fruits.info | sort -n
+cat Fruits.info | sort -n -t '#' -k2
+cat Frruits.info |sort -k 3 -t "#' -r |cut -f 1 -d '#' |head -n1
+cat Fruits.info
+cat Fruits.info | sort -k 3 -t "#' -r
+cat Fruits.info | sort -k3 -t '#' -r
+cat Fruits.info | sort -k 3 -t '#' -r | cut -f 1 -d '#' | head -n1
+cat Fruits.info | sort -k 3 -t '#' -r | cut -f 1 -d '#' | head -n1 > fruit
+cat Fruits.info | sort -k 3 -t '#' -n | head -n3
+history
+history | cut -c 8-
+history | cut -c 8- | tail -106 > exam-history-before-git.txt
