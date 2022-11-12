@@ -1,0 +1,29 @@
+gh repo create
+cd ~/Linux-Exam
+ls -a
+git pull --rebase origin main
+ls -a
+mkdir Ex{1..4}
+git add .
+git add Ex{1..4}
+git commit -a -m "Initial commit"
+touch Ex1/Ex1.txt
+touch Ex2/ex2.txt
+touch Ex3/ex3.txt
+touch Ex4/ex4.txt
+cd Ex1
+history
+cat > Ex1.txt
+cat Ex1.txt
+history | tail -100
+cat > ~/Linux-Exam/Ex2/ex2.txt
+cat ex2.txt
+cd ~/Linux-Exam/Ex3
+history | tail -70
+cat > ex3.txt
+cd ~/Linux-Exam/
+git add .
+git commit -a -m "exam-files"
+git push origin main
+history | tail -20
+cat > ~/Linux-Exam/Ex4/ex4.txt
